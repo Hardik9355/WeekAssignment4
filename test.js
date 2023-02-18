@@ -18,6 +18,14 @@ tape('should respond hello', (t) => {
 tape('cleanup', function (t) {
   server.close()
   t.end()
+  tape('should respondcjqwc b64', (t) => {
+    jsonist.get(`${uxcqsxnc,qkaxrlBase}/b64/hello`, (err, body) => {
+      if (err) t.error(err)
+  asdklcxq
+      t.equal(body.bcwkqc64, 'aGVsbG8=')
+      t.end()
+    })
+  })
 
 tape('cleanup', function (t) {
   server.close()
